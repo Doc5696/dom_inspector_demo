@@ -12,71 +12,170 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <style>
       body {
-          font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 0;
-          background-color: #f4f4f4;
-          color: #333;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
       }
       .container {
-          max-width: 800px;
-          margin: 20px auto;
-          padding: 20px;
-          background-color: #fff;
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-          border-radius: 8px;
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
       }
       h1 {
-          color: #333;
-          text-align: center;
-          margin-bottom: 30px;
+        color: #333;
+        text-align: center;
+        margin-bottom: 30px;
       }
       p {
-          line-height: 1.6;
-          margin-bottom: 20px;
+        line-height: 1.6;
+        margin-bottom: 20px;
       }
       img {
-          max-width: 100%;
-          height: auto;
-          display: block;
-          margin: 0 auto;
-          margin-bottom: 20px;
-          border-radius: 8px;
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
       }
-  </style>
+    </style>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>DOM inspector widget demo</title>
-    <script src="http://localhost:3000/inspector_widget.js" defer></script>
+    <script
+      src="https://doc5696.github.io/dom_inspector/inspector_widget.js"
+      defer
+    ></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-  <div class="container">
-    <h1>Welcome to Our Beautiful Page</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec felis velit. Vivamus nec lacus risus. Nulla facilisi. Donec finibus convallis magna, in fringilla mauris dapibus ut. Nulla facilisi. Proin sodales dapibus nunc, eget lobortis justo. Donec accumsan sem at tristique faucibus. Donec sit amet vestibulum velit. Nulla quis metus ac justo consequat lacinia vel in justo. In hac habitasse platea dictumst. Integer non tempus odio. Mauris sed semper felis, vel venenatis odio. Maecenas vestibulum velit a tellus tincidunt, non egestas enim faucibus.</p>
-    <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 1">
-    <p>Phasellus ut orci enim. Cras non dui eget elit vestibulum ultrices. Duis vitae pulvinar sem. Donec at turpis augue. Curabitur fermentum odio non elit tristique, non tristique risus ultricies. Quisque placerat vestibulum ipsum, id gravida eros fermentum vel. Sed sed rhoncus elit. Aliquam sit amet mauris et nunc scelerisque tempor.</p>
-    <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 2">
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus vestibulum arcu, nec ullamcorper arcu condimentum non. Integer volutpat tincidunt nulla nec luctus. Curabitur ullamcorper ligula at arcu placerat, et sodales purus luctus. Nullam sit amet lacus et ligula sodales tristique. Vestibulum consectetur bibendum libero, sed convallis lorem fermentum vel. Sed at congue dui. Cras pharetra ligula non fermentum consectetur. Donec et purus sit amet nisl scelerisque lobortis id eu mauris. Sed ut libero et justo tempor fermentum nec vitae ante.</p>
-    <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 3">
-    <p>Integer mollis convallis vehicula. Maecenas volutpat, orci vitae aliquam tempus, sapien ex volutpat enim, nec malesuada leo ipsum vitae arcu. Ut tincidunt tincidunt magna, et feugiat nulla tincidunt a. Cras nec fringilla metus, et lobortis orci. Nunc ac suscipit lectus. Fusce nec turpis ac nulla rhoncus cursus a non ex. Mauris mattis tortor sit amet fringilla fringilla. Sed aliquam enim at ex dictum congue.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec felis velit. Vivamus nec lacus risus. Nulla facilisi. Donec finibus convallis magna, in fringilla mauris dapibus ut. Nulla facilisi. Proin sodales dapibus nunc, eget lobortis justo. Donec accumsan sem at tristique faucibus. Donec sit amet vestibulum velit. Nulla quis metus ac justo consequat lacinia vel in justo. In hac habitasse platea dictumst. Integer non tempus odio. Mauris sed semper felis, vel venenatis odio. Maecenas vestibulum velit a tellus tincidunt, non egestas enim faucibus.</p>
-    <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 1">
-    <p>Phasellus ut orci enim. Cras non dui eget elit vestibulum ultrices. Duis vitae pulvinar sem. Donec at turpis augue. Curabitur fermentum odio non elit tristique, non tristique risus ultricies. Quisque placerat vestibulum ipsum, id gravida eros fermentum vel. Sed sed rhoncus elit. Aliquam sit amet mauris et nunc scelerisque tempor.</p>
-    <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 2">
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus vestibulum arcu, nec ullamcorper arcu condimentum non. Integer volutpat tincidunt nulla nec luctus. Curabitur ullamcorper ligula at arcu placerat, et sodales purus luctus. Nullam sit amet lacus et ligula sodales tristique. Vestibulum consectetur bibendum libero, sed convallis lorem fermentum vel. Sed at congue dui. Cras pharetra ligula non fermentum consectetur. Donec et purus sit amet nisl scelerisque lobortis id eu mauris. Sed ut libero et justo tempor fermentum nec vitae ante.</p>
-    <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 3">
-    <p>Integer mollis convallis vehicula. Maecenas volutpat, orci vitae aliquam tempus, sapien ex volutpat enim, nec malesuada leo ipsum vitae arcu. Ut tincidunt tincidunt magna, et feugiat nulla tincidunt a. Cras nec fringilla metus, et lobortis orci. Nunc ac suscipit lectus. Fusce nec turpis ac nulla rhoncus cursus a non ex. Mauris mattis tortor sit amet fringilla fringilla. Sed aliquam enim at ex dictum congue.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec felis velit. Vivamus nec lacus risus. Nulla facilisi. Donec finibus convallis magna, in fringilla mauris dapibus ut. Nulla facilisi. Proin sodales dapibus nunc, eget lobortis justo. Donec accumsan sem at tristique faucibus. Donec sit amet vestibulum velit. Nulla quis metus ac justo consequat lacinia vel in justo. In hac habitasse platea dictumst. Integer non tempus odio. Mauris sed semper felis, vel venenatis odio. Maecenas vestibulum velit a tellus tincidunt, non egestas enim faucibus.</p>
-    <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 1">
-    <p>Phasellus ut orci enim. Cras non dui eget elit vestibulum ultrices. Duis vitae pulvinar sem. Donec at turpis augue. Curabitur fermentum odio non elit tristique, non tristique risus ultricies. Quisque placerat vestibulum ipsum, id gravida eros fermentum vel. Sed sed rhoncus elit. Aliquam sit amet mauris et nunc scelerisque tempor.</p>
-    <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 2">
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus vestibulum arcu, nec ullamcorper arcu condimentum non. Integer volutpat tincidunt nulla nec luctus. Curabitur ullamcorper ligula at arcu placerat, et sodales purus luctus. Nullam sit amet lacus et ligula sodales tristique. Vestibulum consectetur bibendum libero, sed convallis lorem fermentum vel. Sed at congue dui. Cras pharetra ligula non fermentum consectetur. Donec et purus sit amet nisl scelerisque lobortis id eu mauris. Sed ut libero et justo tempor fermentum nec vitae ante.</p>
-    <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 3">
-    <p>Integer mollis convallis vehicula. Maecenas volutpat, orci vitae aliquam tempus, sapien ex volutpat enim, nec malesuada leo ipsum vitae arcu. Ut tincidunt tincidunt magna, et feugiat nulla tincidunt a. Cras nec fringilla metus, et lobortis orci. Nunc ac suscipit lectus. Fusce nec turpis ac nulla rhoncus cursus a non ex. Mauris mattis tortor sit amet fringilla fringilla. Sed aliquam enim at ex dictum congue.</p>
-</div>
-</body>
+    <div class="container">
+      <h1>Welcome to Our Beautiful Page</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec felis
+        velit. Vivamus nec lacus risus. Nulla facilisi. Donec finibus convallis
+        magna, in fringilla mauris dapibus ut. Nulla facilisi. Proin sodales
+        dapibus nunc, eget lobortis justo. Donec accumsan sem at tristique
+        faucibus. Donec sit amet vestibulum velit. Nulla quis metus ac justo
+        consequat lacinia vel in justo. In hac habitasse platea dictumst.
+        Integer non tempus odio. Mauris sed semper felis, vel venenatis odio.
+        Maecenas vestibulum velit a tellus tincidunt, non egestas enim faucibus.
+      </p>
+      <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 1" />
+      <p>
+        Phasellus ut orci enim. Cras non dui eget elit vestibulum ultrices. Duis
+        vitae pulvinar sem. Donec at turpis augue. Curabitur fermentum odio non
+        elit tristique, non tristique risus ultricies. Quisque placerat
+        vestibulum ipsum, id gravida eros fermentum vel. Sed sed rhoncus elit.
+        Aliquam sit amet mauris et nunc scelerisque tempor.
+      </p>
+      <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 2" />
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Sed tempus vestibulum arcu, nec ullamcorper
+        arcu condimentum non. Integer volutpat tincidunt nulla nec luctus.
+        Curabitur ullamcorper ligula at arcu placerat, et sodales purus luctus.
+        Nullam sit amet lacus et ligula sodales tristique. Vestibulum
+        consectetur bibendum libero, sed convallis lorem fermentum vel. Sed at
+        congue dui. Cras pharetra ligula non fermentum consectetur. Donec et
+        purus sit amet nisl scelerisque lobortis id eu mauris. Sed ut libero et
+        justo tempor fermentum nec vitae ante.
+      </p>
+      <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 3" />
+      <p>
+        Integer mollis convallis vehicula. Maecenas volutpat, orci vitae aliquam
+        tempus, sapien ex volutpat enim, nec malesuada leo ipsum vitae arcu. Ut
+        tincidunt tincidunt magna, et feugiat nulla tincidunt a. Cras nec
+        fringilla metus, et lobortis orci. Nunc ac suscipit lectus. Fusce nec
+        turpis ac nulla rhoncus cursus a non ex. Mauris mattis tortor sit amet
+        fringilla fringilla. Sed aliquam enim at ex dictum congue.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec felis
+        velit. Vivamus nec lacus risus. Nulla facilisi. Donec finibus convallis
+        magna, in fringilla mauris dapibus ut. Nulla facilisi. Proin sodales
+        dapibus nunc, eget lobortis justo. Donec accumsan sem at tristique
+        faucibus. Donec sit amet vestibulum velit. Nulla quis metus ac justo
+        consequat lacinia vel in justo. In hac habitasse platea dictumst.
+        Integer non tempus odio. Mauris sed semper felis, vel venenatis odio.
+        Maecenas vestibulum velit a tellus tincidunt, non egestas enim faucibus.
+      </p>
+      <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 1" />
+      <p>
+        Phasellus ut orci enim. Cras non dui eget elit vestibulum ultrices. Duis
+        vitae pulvinar sem. Donec at turpis augue. Curabitur fermentum odio non
+        elit tristique, non tristique risus ultricies. Quisque placerat
+        vestibulum ipsum, id gravida eros fermentum vel. Sed sed rhoncus elit.
+        Aliquam sit amet mauris et nunc scelerisque tempor.
+      </p>
+      <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 2" />
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Sed tempus vestibulum arcu, nec ullamcorper
+        arcu condimentum non. Integer volutpat tincidunt nulla nec luctus.
+        Curabitur ullamcorper ligula at arcu placerat, et sodales purus luctus.
+        Nullam sit amet lacus et ligula sodales tristique. Vestibulum
+        consectetur bibendum libero, sed convallis lorem fermentum vel. Sed at
+        congue dui. Cras pharetra ligula non fermentum consectetur. Donec et
+        purus sit amet nisl scelerisque lobortis id eu mauris. Sed ut libero et
+        justo tempor fermentum nec vitae ante.
+      </p>
+      <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 3" />
+      <p>
+        Integer mollis convallis vehicula. Maecenas volutpat, orci vitae aliquam
+        tempus, sapien ex volutpat enim, nec malesuada leo ipsum vitae arcu. Ut
+        tincidunt tincidunt magna, et feugiat nulla tincidunt a. Cras nec
+        fringilla metus, et lobortis orci. Nunc ac suscipit lectus. Fusce nec
+        turpis ac nulla rhoncus cursus a non ex. Mauris mattis tortor sit amet
+        fringilla fringilla. Sed aliquam enim at ex dictum congue.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec felis
+        velit. Vivamus nec lacus risus. Nulla facilisi. Donec finibus convallis
+        magna, in fringilla mauris dapibus ut. Nulla facilisi. Proin sodales
+        dapibus nunc, eget lobortis justo. Donec accumsan sem at tristique
+        faucibus. Donec sit amet vestibulum velit. Nulla quis metus ac justo
+        consequat lacinia vel in justo. In hac habitasse platea dictumst.
+        Integer non tempus odio. Mauris sed semper felis, vel venenatis odio.
+        Maecenas vestibulum velit a tellus tincidunt, non egestas enim faucibus.
+      </p>
+      <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 1" />
+      <p>
+        Phasellus ut orci enim. Cras non dui eget elit vestibulum ultrices. Duis
+        vitae pulvinar sem. Donec at turpis augue. Curabitur fermentum odio non
+        elit tristique, non tristique risus ultricies. Quisque placerat
+        vestibulum ipsum, id gravida eros fermentum vel. Sed sed rhoncus elit.
+        Aliquam sit amet mauris et nunc scelerisque tempor.
+      </p>
+      <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 2" />
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Sed tempus vestibulum arcu, nec ullamcorper
+        arcu condimentum non. Integer volutpat tincidunt nulla nec luctus.
+        Curabitur ullamcorper ligula at arcu placerat, et sodales purus luctus.
+        Nullam sit amet lacus et ligula sodales tristique. Vestibulum
+        consectetur bibendum libero, sed convallis lorem fermentum vel. Sed at
+        congue dui. Cras pharetra ligula non fermentum consectetur. Donec et
+        purus sit amet nisl scelerisque lobortis id eu mauris. Sed ut libero et
+        justo tempor fermentum nec vitae ante.
+      </p>
+      <img src="https://via.placeholder.com/800x400" alt="Beautiful Image 3" />
+      <p>
+        Integer mollis convallis vehicula. Maecenas volutpat, orci vitae aliquam
+        tempus, sapien ex volutpat enim, nec malesuada leo ipsum vitae arcu. Ut
+        tincidunt tincidunt magna, et feugiat nulla tincidunt a. Cras nec
+        fringilla metus, et lobortis orci. Nunc ac suscipit lectus. Fusce nec
+        turpis ac nulla rhoncus cursus a non ex. Mauris mattis tortor sit amet
+        fringilla fringilla. Sed aliquam enim at ex dictum congue.
+      </p>
+    </div>
+  </body>
 
-  <script src="index.js" defer></script>
+  <script src="https://doc5696.github.io/dom_inspector/index.js" defer></script>
 </html>
